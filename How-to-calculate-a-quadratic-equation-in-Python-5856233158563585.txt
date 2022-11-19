@@ -1,0 +1,10 @@
+from sympy import symbols, expand
+
+x = symbols('x')
+expr = (x-1)**2
+print(expr)
+expr2 = expand(expr)
+print(expr2)
+,(x - 1)**2
+x**2 - 2*x + 1
+

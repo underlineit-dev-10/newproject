@@ -1,0 +1,17 @@
+while flag == True:
+    for i in range(len(x) - 1):
+        if x[i] > x[i + 1]:
+            h = x[i]
+            x[i] = x[i + 1] 
+            x[i + 1] = h
+
+    if sorted(x) == x: #x is already sorted
+        flag = False
+,while flag == True:
+    flag = False
+    for i in range(len(x) - 1):
+        if x[i] > x[i + 1]:
+            flag = True
+            h = x[i]
+            x[i] = x[i + 1] 
+            x[i + 1] = h
